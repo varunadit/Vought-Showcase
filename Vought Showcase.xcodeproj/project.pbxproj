@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186EE3E82C7114A700306559 /* SegmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EE3E72C7114A700306559 /* SegmentsView.swift */; };
 		1882B09E2C711B1C00DCC56D /* SegmentProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882B09D2C711B1C00DCC56D /* SegmentProgressBar.swift */; };
 		1882B0A02C711B3700DCC56D /* SegmentTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882B09F2C711B3700DCC56D /* SegmentTimer.swift */; };
 		1882B0A22C711B6600DCC56D /* OpenSegmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882B0A12C711B6600DCC56D /* OpenSegmentsView.swift */; };
 		18B61FF22C7115F800A68E53 /* SegmentDataSourceProviderContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B61FF12C7115F800A68E53 /* SegmentDataSourceProviderContracts.swift */; };
 		18B61FF52C71163400A68E53 /* SegmentDataSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B61FF42C71163400A68E53 /* SegmentDataSourceProvider.swift */; };
 		18CDCAC52C720CB100C78FD9 /* SegmentGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDCAC42C720CB100C78FD9 /* SegmentGesturesView.swift */; };
+		18CDCB002C7349C300C78FD9 /* SegmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDCAFF2C7349C300C78FD9 /* SegmentsView.swift */; };
 		5E1E353D2C623996000D7DEF /* UIViewController+AddChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E353C2C623996000D7DEF /* UIViewController+AddChild.swift */; };
 		5E1E353F2C6247C5000D7DEF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E353E2C6247C5000D7DEF /* ImageViewController.swift */; };
 		5E1E35422C6248A6000D7DEF /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E35412C6248A6000D7DEF /* CarouselItem.swift */; };
@@ -55,13 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		186EE3E72C7114A700306559 /* SegmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SegmentsView.swift; path = "../../../../Vought Showcase 1/Vought Showcase/Segment/SegmentsView/SegmentsView.swift"; sourceTree = "<group>"; };
 		1882B09D2C711B1C00DCC56D /* SegmentProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentProgressBar.swift; sourceTree = "<group>"; };
 		1882B09F2C711B3700DCC56D /* SegmentTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTimer.swift; sourceTree = "<group>"; };
 		1882B0A12C711B6600DCC56D /* OpenSegmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSegmentsView.swift; sourceTree = "<group>"; };
 		18B61FF12C7115F800A68E53 /* SegmentDataSourceProviderContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentDataSourceProviderContracts.swift; sourceTree = "<group>"; };
 		18B61FF42C71163400A68E53 /* SegmentDataSourceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentDataSourceProvider.swift; sourceTree = "<group>"; };
 		18CDCAC42C720CB100C78FD9 /* SegmentGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentGesturesView.swift; sourceTree = "<group>"; };
+		18CDCAFF2C7349C300C78FD9 /* SegmentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentsView.swift; sourceTree = "<group>"; };
 		5E1E353C2C623996000D7DEF /* UIViewController+AddChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddChild.swift"; sourceTree = "<group>"; };
 		5E1E353E2C6247C5000D7DEF /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		5E1E35412C6248A6000D7DEF /* CarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		186EE3E32C71145900306559 /* SegmentsView */ = {
 			isa = PBXGroup;
 			children = (
-				186EE3E72C7114A700306559 /* SegmentsView.swift */,
+				18CDCAFF2C7349C300C78FD9 /* SegmentsView.swift */,
 			);
 			path = SegmentsView;
 			sourceTree = "<group>";
@@ -431,6 +431,7 @@
 				5E1E35442C62497D000D7DEF /* HomeLanderCarouselItem.swift in Sources */,
 				1882B09E2C711B1C00DCC56D /* SegmentProgressBar.swift in Sources */,
 				5E87DCA02C6236A30005D86C /* CarouselViewController.swift in Sources */,
+				18CDCB002C7349C300C78FD9 /* SegmentsView.swift in Sources */,
 				18B61FF22C7115F800A68E53 /* SegmentDataSourceProviderContracts.swift in Sources */,
 				5E87DC722C6232430005D86C /* MainViewController.swift in Sources */,
 				5E1E35482C624B31000D7DEF /* BlackNoirCarouselItem.swift in Sources */,
@@ -439,7 +440,6 @@
 				5E1E35462C624AB9000D7DEF /* MaeveCarouselItem.swift in Sources */,
 				5E1E354F2C624C2A000D7DEF /* CarouselItemDataSourceProviderType.swift in Sources */,
 				5E1E353D2C623996000D7DEF /* UIViewController+AddChild.swift in Sources */,
-				186EE3E82C7114A700306559 /* SegmentsView.swift in Sources */,
 				18CDCAC52C720CB100C78FD9 /* SegmentGesturesView.swift in Sources */,
 				1882B0A02C711B3700DCC56D /* SegmentTimer.swift in Sources */,
 				5E1E35512C624C4D000D7DEF /* CarouselItemDataSourceProvider.swift in Sources */,
